@@ -23,7 +23,7 @@ SECRET_KEY = env("SECRET_KEY")
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-a)0z3bvdio*7a%-m1bmvpmw*7stmlv7j9(hjmxi(232g%f6iq9'
+SECRET_KEY = 'django-insecure-a)0z3bvdio*7a%-m1bmvpmw*7stmlv7j9(hjmxi(232g%f6iq9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
