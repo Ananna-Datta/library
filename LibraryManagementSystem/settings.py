@@ -28,7 +28,6 @@ SECRET_KEY = 'django-insecure-a)0z3bvdio*7a%-m1bmvpmw*7stmlv7j9(hjmxi(232g%f6iq9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -82,6 +81,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'LibraryManagementSystem.wsgi.application'
 
+ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = ['https://django-giyd.onrender.com','https://*.127.0.0.1']
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
